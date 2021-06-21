@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">UTS_WAHYU</string>
+    <string name="action_settings">PENGATURAN</string>
+    <string name="sejarah">SEJARAH</string>
+    <string name="abu_bakar_ash_shiddiq">ABU BAKAR ASH SHIDDIQ</string>
+    <string name="sejarah_abu_bakar_shiddiq">SEJARAH ABU BAKAR SHIDDIQ</string>
+</resources>

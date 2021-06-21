@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:gravity="center"
+            android:id="@+id/etjudul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="@string/sejarah"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:gravity="center"
+            android:id="@+id/etjudul1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/abu_bakar_ash_shiddiq"
+
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:onClick="clickabubakar"
+            android:id="@+id/btn1"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="300dp"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:text="@string/sejarah_abu_bakar_shiddiq"
+            android:gravity="center"
+            android:textSize="13sp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="10dp"
+            />
+     </LinearLayout>
+</RelativeLayout>
